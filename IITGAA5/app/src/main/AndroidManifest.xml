@@ -74,6 +74,9 @@
         </receiver>
 
         <!-- /Added for Parse push notifications -->
+        
+        <!-- replace @drawable/push_icon with your push icon identifier -->
+        <meta-data android:name="com.parse.push.notification_icon" android:resource="@drawable/iitgaa"/>
     </application>
 
 </manifest>
